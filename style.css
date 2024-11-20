@@ -1,0 +1,48 @@
+.grid-container {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: auto;
+    background-color: white;
+    padding: 20px;
+  }
+
+.grid-item {
+    background-color: rgba(128, 128, 128, 0.267);
+    border: 0px solid black;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+
+.ofertas {
+    border: 0px solid black;
+    padding: 20px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+  }
+
+strong {
+    font-size: 20px;
+    color: rgba(6, 6, 255, 0.863);
+}
+
+.grid-container2 {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    padding: 10px;
+  }
+
+  .grid-item2 {
+    background-color: rgba(128, 128, 128, 0.267);
+    border: 10px solid white;
+    padding: 10px;
+    text-align: center;
+  }
+
+.portadas {
+    size-adjust: auto;
+}
